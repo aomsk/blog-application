@@ -23,3 +23,18 @@ nav {
   font-size: 20px;
   font-weight: 600;
 }
+
+.menu-link .link:focus {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    padding: 0 20px;
+  }
+
+  .menu-link .link {
+    margin: 0 0 0 10px;
+    font-size: 13px
+  }
+}
