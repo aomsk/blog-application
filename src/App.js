@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Blogs from "./pages/Blogs";
 import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
+import DetailBlog from "./pages/DetailBlogs";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <Route path="*" element={<NotFound />} />
         <Route path="/home" element={<Navigate to="/" />} />
         <Route path="/info" element={<Navigate to="/about" />} />
+        <Route path="/blog/:blogId" element={<DetailBlog />} />
+        {/* <Route path="blogs">
+          <Route path=":blogId" element={<DetailBlog />} />
+        </Route> */}
       </Routes>
     </BrowserRouter>
   );
