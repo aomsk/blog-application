@@ -35,6 +35,11 @@ nav {
 
   .menu-link .link {
     margin: 0 0 0 10px;
-    font-size: 13px
+    font-size: 12px
+  }
+
+  .menu-link .link:hover {
+    font-size: 12px;
+    font-weight: 600;
   }
 }
