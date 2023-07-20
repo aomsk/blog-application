@@ -1,5 +1,4 @@
 # Blog Application
-workshop by Kong Ruksiam
 
 ### Features 💪
 * show all Blog
